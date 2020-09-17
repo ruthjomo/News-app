@@ -1,1 +1,3 @@
-web: gunicorn manage:app
+web: gunicorn News-app.wsgi
+
+pip install -r requirements.txt
