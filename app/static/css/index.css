@@ -1,20 +1,29 @@
-*img{
-    height: 120px;
-    width: 120px;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
-.icons{
-    list-style-type: none;
-    float: right;
-    text-align: center;
-    margin-right: 30px;
+
+body{
+    background: #412234;
+    color: #6D466B;
 }
-.icons li{
-    display: inline-block;
-    padding-right: 30px;
-    font-size: 20px;
-    text-align: center;
-    margin-right: 30px;
+
+li{
+    list-style: none;
 }
-h2{
-    text-align: center;
+
+#navigation {
+    font-family: 'Julius Sans One';
+    font-size: 100%;
+    text-transform: uppercase;
+    min-height: 89px;  
 }
+
+
+h1,h2{
+    color: #056b5b 
+}
+
+
+
